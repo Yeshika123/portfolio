@@ -8,7 +8,7 @@ import Reveal from "./ui/Reveal";
 const links = [
   { path: "/", name: "home" },
   { path: "/projects", name: "my projects" },
-  { path: "/contact", name: "contact" },
+  // { path: "/contact", name: "contact" },
 ];
 
 const NavBar = ({ containerStyles, linkStyles, underlineStyles }) => {

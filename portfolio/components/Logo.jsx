@@ -11,7 +11,7 @@ const Logo = () => {
 
     <Link href='/' >
     <div className=' hidden md:flex hover:text-primary transition-all'  style={{"font-size": "30px","fontWeight":"500"}} > 
-       VISHAL METI
+       Yeshika Singh
        {/* <Button variant="secondary" className="gap-x-2"> */}
        
     </div>

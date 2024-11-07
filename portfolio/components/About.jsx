@@ -17,27 +17,27 @@ import {
 const infoData = [
   {
     icon: <User2 size={20} />,
-    text: "Vishal Meti",
+    text: "Yeshika Singh",
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "+91 9902638798",
+    text: "+91 8218903371",
   },
   {
     icon: <MailIcon size={20} />,
-    text: "work.vishalmeti@gmail.com",
+    text: "yeshikakushwaha@gmail.com",
   },
   {
     icon: <Calendar size={20} />,
-    text: "Born on 11 Jan, 2001",
+    text: " Born on 22 Aug, 2000",
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "Bachelors Degree in Computer Science",
+    text: "BBA FINANCE",
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "Bangalore, India",
+    text: "Delhi, India",
   },
 ];
 
@@ -46,15 +46,15 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "SDM College of Engineering and Technology",
-        qualification: "BE / BTech in Computer Science",
-        years: "2018-2022",
+        university: "Army Public School (APS)",
+        qualification: "Intermediate",
+        years: "2018",
         grade: "8.02 CGPA",
       },
       {
-        university: "Scaler",
-        qualification: "Programing and Upskilling",
-        years: "2022-2023",
+        university: "Indian Institute of Management Technology",
+        qualification: "BBA Finance",
+        years: "2021",
       },
     ],
   },
@@ -62,22 +62,16 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "LINARC",
-        role: "SDE - 1 / Full Stack Developer",
-        years: "Aug 2024 - Current",
-        logo:'/Experience/linarc.png'
+        company: "NOVATR",
+        role: "Technical Writer",
+        years: "May 2023 - Current",
+        logo:'/Experience/Novatr.jpg'
       },
       {
-        company: "SONY",
-        role: "Software Engineer / Web Developer",
-        years: "Aug 2022 - Aug 2023",
-        logo:'/Experience/sony.png'
-      },
-      {
-        company: "Disprz",
-        role: "Associate Software Engineer / Web Developer",
-        years: "Aug 2023 - Aug 2024",
-        logo:'/Experience/disprz.png'
+        company: "DEBUT INFOTECH PVT LTD",
+        role: "Technical Writer",
+        years: "Feb 2022 - April 2023",
+        logo:'/Experience/debut.png'
       },
     ],
   },
@@ -153,7 +147,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row items-center">
           <div className="flex">
             <Tabs defaultValue="personal">
-              <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+              <TabsList className="w-full grid xl:grid-cols-2 xl:max-w-[520px] xl:border dark:border-none">
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
                   Personal Info
                 </TabsTrigger>
@@ -163,9 +157,9 @@ const About = () => {
                 >
                   Qualifications
                 </TabsTrigger>
-                <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
+                {/* <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
                   My Technical Skills
-                </TabsTrigger>
+                </TabsTrigger> */}
               </TabsList>
               <div className="text-lg mt-12 xl:mt-8">
                 {/* personal  */}
@@ -174,10 +168,10 @@ const About = () => {
                   <div className="flex gap-44">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Worked for over 3 years
+                      Worked for over 4 + years
                     </h3>
                     <p className="subtitle max-w-lg max-auto xl:mx-0">
-                    I have spent over 3 years in the corporate world, gaining valuable technological expertise and honing my skills through real-world applications
+                    I have spent over four years in the corporate world, gaining valuable expertise regarding simplifying complex information into easily understandable one.
                     </p>
                     {/* icons  */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">

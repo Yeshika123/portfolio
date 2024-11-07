@@ -13,7 +13,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Vishal Meti",
+  title: "Yeshika Singh",
 };
 
 export default function RootLayout({ children }) {

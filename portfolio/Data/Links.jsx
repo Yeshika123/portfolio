@@ -1,4 +1,4 @@
-export const ResumeLink = 'https://drive.google.com/file/d/1YVzaM2CCIpCanp3slyPrXtec-48ws5V_/view?usp=sharing'
+export const ResumeLink = 'https://docs.google.com/document/d/1MQLcXX1uGI0rYX6-gnMv6xSgXXBRmXEo/edit'
 
 export const LinkedInLink = 'https://www.linkedin.com/in/vishal-meti-280876219/'
 

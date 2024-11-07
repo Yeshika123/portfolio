@@ -11,18 +11,18 @@ import Link from 'next/link'
 import { GitHubLink, LinkedInLink, YoutubeLink } from '@/Data/Links'
 
 const icons=[
-  {
-    path:LinkedInLink,
-    name:<RiLinkedinFill/>
-  },
-  {
-    path:GitHubLink,
-    name:<RiGithubFill/>
-  },
-  {
-    path:YoutubeLink,
-    name:<RiYoutubeFill/>
-  }
+  // {
+  //   path:LinkedInLink,
+  //   name:<RiLinkedinFill/>
+  // },
+  // {
+  //   path:GitHubLink,
+  //   name:<RiGithubFill/>
+  // },
+  // {
+  //   path:YoutubeLink,
+  //   name:<RiYoutubeFill/>
+  // }
 ]
 
 const Socials = ({containerStyles , iconStyles}) => {

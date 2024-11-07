@@ -1,8 +1,8 @@
 const Constants = {
-    name: 'Vishal Meti',
-    email : 'work.vishalmeti@gmail.com',
-    phone: '+91 9902638798',
-    address : 'Bangalore , Karnataka, India'
+    name: 'Yeshika Singh',
+    email : 'yeshikakushwaha@gmail.com',
+    phone: '+91 8218903371',
+    address : 'Delhi Cantt, India'
 }
 
 export default Constants 

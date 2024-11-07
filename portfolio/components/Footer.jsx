@@ -12,7 +12,7 @@ const Footer = () => {
           />
 
           <div className="text-muted-foreground">
-            Copyright &copy; Vishal Meti. All rights reserved
+            Copyright &copy; Yeshika Singh. All rights reserved
           </div>
         </div>
       </div>
