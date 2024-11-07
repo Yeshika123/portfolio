@@ -24,19 +24,4 @@ export const projectData = [
       link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
       github: "/",
     },
-    {
-      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
-      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
-      github: "/",
-    },
-    {
-      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
-      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
-      github: "/",
-    },
-    {
-      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
-      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
-      github: "/",
-    },
   ];

@@ -35,6 +35,11 @@ const Projects = () => {
         link: "https://docs.google.com/document/d/1b0zRaVCeJug78meu2KGze7C50IJIbFUjl6cuH0oqTc8/edit?usp=drivesdk",
         github: "/",
       },
+      {
+        name: "Bhim App Configuration Guide",
+        link: "https://docs.google.com/document/d/1OqbbHnjXIZDKo8e_pzOx6pKjO17uZ2tbOD2tFoR7o9s/edit?tab=t.0#heading=h.3xnuhk32fwt6",
+        github: "/",
+      }
     ];
   console.log(miscProjects)
   return (
