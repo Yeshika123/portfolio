@@ -1,0 +1,143 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    
+
+    @layer base {
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background:hsl(var(--primary) / 0.9);
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: hsl(var(--secondary-foreground) / 0.5)
+      }
+      :root {
+        --background: 0 0% 100%;
+        --foreground: 20 14.3% 4.1%;
+        --card: 0 0% 100%;
+        --card-foreground: 20 14.3% 4.1%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 20 14.3% 4.1%;
+        --primary: 24.6 95% 53.1%;
+        --primary-foreground: 60 9.1% 97.8%;
+        --secondary: 60 4.8% 95.9%;
+        --secondary-foreground: 24 9.8% 10%;
+        --muted: 60 4.8% 95.9%;
+        --muted-foreground: 25 5.3% 44.7%;
+        --accent: 60 4.8% 95.9%;
+        --accent-foreground: 24 9.8% 10%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 60 9.1% 97.8%;
+        --border: 20 5.9% 90%;
+        --input: 20 5.9% 90%;
+        --ring: 24.6 95% 53.1%;
+        --radius: 0.75rem;
+
+        /* own classes  */
+        --tertiary:27 82% 98%;
+      }
+    
+      .dark {
+        /* --background: 240% 19% 16%; */
+        --background: 217 26% 15%;;
+        --foreground: 0 0% 95%;
+        --card: 24 9.8% 10%;
+        --card-foreground: 0 0% 95%;
+        --popover: 0 0% 9%;
+        --popover-foreground: 0 0% 95%;
+        --primary: 346.8 77.2% 49.8%;
+        --primary-foreground: 355.7 100% 97.3%;
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 0 0% 15%;
+        --muted-foreground: 240 5% 64.9%;
+        --accent: 12 6.5% 15.1%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 85.7% 97.3%;
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+        --ring: 346.8 77.2% 49.8%;
+      }
+    }
+    
+
+  }
+
+  @layer base {
+
+    * {
+      @apply border-border;
+    }
+    body {
+      
+      @apply bg-background text-foreground;
+    }
+  }
+
+  .h1{
+    @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold
+  }
+
+  .h2{
+    @apply text-4xl font-bold
+  }
+
+  .h3{
+    @apply text-3xl font-bold
+  }
+
+  .h4{
+    @apply text-[22px] font-semibold
+  }
+
+  .subtitle{
+    @apply text-muted-foreground text-lg mb-8 font-light;
+  }
+
+  #me{
+    -webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTA5IiBoZWlnaHQ9IjQ2MiIgdmlld0JveD0iMCAwIDUwOSA0NjIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNNDMwLjY4NCA5MS44NDc2QzQ4NS41ODcgMTQ4Ljk1OCA1MjMuMzMyIDIzMS44NzIgNTAzLjc3MyAyOTQuODMxQzQ4My44NzEgMzU3Ljc5IDQwNi42NjQgNDAwLjQ1MSAzMzEuNTE2IDQyOS4zNTFDMjU2LjcxMSA0NTguMjUgMTgzLjk2NSA0NzMuMzg4IDEyOC4zNzYgNDQ4LjYxN0M3Mi40NDQzIDQyMy44NDYgMzIuOTgzIDM1OC44MjIgMTMuMDgwOCAyODUuMTk4Qy02LjQ3ODI2IDIxMS45MTcgLTcuMTY0NTUgMTMwLjAzNiAzMi4yOTY3IDc2LjM2NThDNzIuMTAxMSAyMi42OTU1IDE1MS43MSAtMi43NjMzNyAyMjcuNTQ0IDAuMzMyOTgzQzMwMy43MjIgMy4wODUzMSAzNzUuNzgxIDM0LjczNjkgNDMwLjY4NCA5MS44NDc2WiIgZmlsbD0iI0ZFNzA1QSIvPg0KPC9zdmc+DQo=)
+  }
+
+  .floating {
+    position: relative;
+    -web-kit-mask-repeat: no-repeat !important;
+    animation: floatAnimation 4s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-13px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.badge{
+  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center
+}
+.zi--1{
+  z-index: -1 !important;
+}
+
+.section-title{
+  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px]
+}
+
+/* swipper bullets style  */
+
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  @apply bg-primary
+}
