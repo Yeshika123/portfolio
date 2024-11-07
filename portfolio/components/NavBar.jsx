@@ -7,7 +7,8 @@ import Reveal from "./ui/Reveal";
 
 const links = [
   { path: "/", name: "home" },
-  { path: "/projects", name: "my projects" },
+  { path: "/projects", name:  "Technical projects" },
+  {path: "/misc", name: "Miscellaneous"}
   // { path: "/contact", name: "contact" },
 ];
 

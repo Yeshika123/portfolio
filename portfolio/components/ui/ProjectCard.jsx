@@ -17,15 +17,15 @@ const ProjectCard = ({ project, showBadge }) => {
       <Card>
         <CardHeader className="group overflow-hidden relative p-1">
           {/* image  */}
-          <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 bg-work_project_bg_light bg-[50%] lg:bg-[110%] bg:no-repeat overflow-hidden">
-            <Image
+          <div className="relative w-full h-[100px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 bg-work_project_bg_light bg-[50%] lg:bg-[110%] bg:no-repeat overflow-hidden">
+            {/* <Image
               className="absolute botom-0 shadow-2xl rounded-[15px]"
               src={project.image}
               width={247}
               height={250}
               alt="project ui"
               property
-            />
+            /> */}
 
             {/* btns  */}
             <div className="flex gap-x-4">
@@ -35,13 +35,16 @@ const ProjectCard = ({ project, showBadge }) => {
                 onClick={(e) => {
                   project.link === "/" ? e.preventDefault() : ""
                 }}
-                className="bg-black dark:bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
+                className="bg-black dark:bg-secondary w-[104px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
               >
                 <AlertDialogDemo show={project.link === "/"} linkOf={'Hosted'} >
-                <Link2Icon className="text-white" />
+                <span className="text-white">
+                  Link
+                  </span>
+                   &nbsp; <Link2Icon className="text-white" />
                 </AlertDialogDemo>
               </Link>
-              <Link
+              {/* <Link
                 href={project.github}
                 target={project.github !== '/'?"_blank":''}
                 onClick={(e) => {
@@ -56,7 +59,7 @@ const ProjectCard = ({ project, showBadge }) => {
                   height={50}
                 />
                 </AlertDialogDemo>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </CardHeader>

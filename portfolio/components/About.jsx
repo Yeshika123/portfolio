@@ -49,7 +49,6 @@ const qualificationData = [
         university: "Army Public School (APS)",
         qualification: "Intermediate",
         years: "2018",
-        grade: "8.02 CGPA",
       },
       {
         university: "Indian Institute of Management Technology",
@@ -192,7 +191,7 @@ const About = () => {
                       <div className="text-primary">Language Skill</div>
                       <div className="border-b border-border"></div>
                       <div className="">
-                        English, Hindi, Kannada, Malayalam, Tamil{" "}
+                        English, Hindi{" "}
                       </div>
                     </div>
                   </div>

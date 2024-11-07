@@ -1,56 +1,42 @@
 export const projectData = [
   {
-    image: "/work/gemini.png",
-    category: "react js",
-    name: "Gemini AI Clone",
-    description:
-      "A clone of Gemini AI website, built using React js and Google Gemini API for fetching data. It allows users to query for any information and get the results.",
-    link: 'https://gemini-clone-eight-khaki.vercel.app/',
-    github: "https://github.com/vishalmeti/Gemini-clone",
+    name: "React vs. Angular",
+    link: 'https://docs.google.com/document/d/1DQTy1Z2_B_nAkZd-BZVU-k4LVdOopIwjBoaxXaivZvs/edit?tab=t.0#heading=h.mn4gesz5663z',
+    github: "/",
   },
   {
-      image: "/work/nexus.png",
-      category: "next js",
-      name: "Nexus Note",
-      description:
-        "Nexus is a productivity and note-taking web application. It is an online organizational tool, offering users free-to-use",
-      link: "https://nexus-note.vercel.app/",
-      github: "https://github.com/vishalmeti/nexus-note",
-    },
-    {
-      image: "/work/coins.png",
-      category: "react js",
-      name: "Crypto Insights",
-      description:
-        "A React app enabling real-time data retrieval and updates for accurate cryptocurrency market information",
-      link: "https://crypto-insights-eosin.vercel.app/",
+      name: "A/B Testing",
+      link: "https://docs.google.com/document/d/1DWbm5RjQSTDs1wTFZlAs3gAqIS2hhKjrgVHGVspl_Aw/edit?tab=t.0",
       github: "/",
     },
     {
-      image: "/work/jobify.png",
-      category: "Full stack",
-      name: "Jobify",
-      description:
-        "Developed a full stack MERN project aimed at simplifying the job application tracking process at a single web page.",
-      link: "/",
-      github: "https://github.com/vishalmeti/Jobify",
+      name: "GameStop NFT Marketplace: A New Era of Digital Ownership",
+      link: "https://docs.google.com/document/d/11ApYX8_EXlzI08K5n8BCiZ-KUdJ4K5Mg5pCv_fOkzZE/edit?usp=drivesdk",
+      github: "/",
     },
     {
-      image: "/work/studybudy.png",
-      category: "Django",
-      name: "Study buddy",
-      description:
-        "A website created for college environment, where students of similar intrest can join together for study and doubt sessions",
-      link: "/",
-      github: "https://github.com/vishalmeti/studybuddy",
+      name: "Understanding Microservices Architecture: Benefits and Challenges",
+      link: "https://docs.google.com/document/d/1lUNgroTgVJgK0GDifpEqbpCR1_1VUqPVeMZsMM6Gnjo/edit?usp=drivesdk",
+      github: "/",
     },
     {
-      image: "/work/image.png",
-      category: "next js",
-      name: "Portfolio",
-      description:
-        "A portfolio website using React, Next js to showcase my profile and projects worked on so far. Users can also contact using the form provided .",
-      link: '',
-      github: "https://github.com/vishalmeti/Portfolio",
-    }
+      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
+      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
+      github: "/",
+    },
+    {
+      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
+      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
+      github: "/",
+    },
+    {
+      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
+      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
+      github: "/",
+    },
+    {
+      name: "Microsoft Defender For Cloud Apps- Prevent Unauthorized Access To Your Cloud Apps",
+      link: "https://docs.google.com/document/d/1I7r8NNKmQW5-OMnHv2q88rHtB7q0Ukm4jU9fKbrNVfw/edit?usp=drivesdk",
+      github: "/",
+    },
   ];
