@@ -214,7 +214,7 @@ const About = () => {
                       My Journey
                     </h3>
                     <p className="subtitle max-w-lg max-auto xl:mx-0">
-                    In my two-year journey as a software engineer, I've grown from my early experiences to tackling complex projects, continuously improving both technical and soft skills.<br/> Embracing challenges as opportunities, I'm eager to leverage my experiences to contribute meaningfully to future projects and teams.
+                    In my two-year journey as a Technical Writer, I've grown from my early experiences to tackling complex projects, continuously improving both technical and soft skills.<br/> Embracing challenges as opportunities, I'm eager to leverage my experiences to contribute meaningfully to future projects and teams.
                     </p>
                     {/* experience and education wrapper  */}
                     <div className=" flex flex-col xl:flex-row">
